@@ -1,0 +1,14 @@
+.Board{
+    border: 5px solid black;
+    height: 550px;
+    width: 550px;
+}
+#flex2{
+    display: flex;
+    flex-direction: row;
+}
+#lastbox{
+    height: 107px;
+    width: 134px;
+    border: 2px solid black;
+}

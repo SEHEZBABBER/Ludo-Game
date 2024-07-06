@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 37px);
+    gap: 0; /* Remove spacing between grid items */
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .grid > div {
+    height: 37px;
+    width: 37px;
+    border: 2px solid black;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }

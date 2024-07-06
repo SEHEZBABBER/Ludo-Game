@@ -1,0 +1,19 @@
+#dice{
+    height: 150px;
+    width: 150px;
+    border: 4px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* #dic{
+    height: 50px;
+    width: 50px;
+} */
+.custom-dice {
+    width: 50px;  /* Desired width */
+    height: 50px; /* Desired height */
+    display: inline-block;
+  }
+ 
